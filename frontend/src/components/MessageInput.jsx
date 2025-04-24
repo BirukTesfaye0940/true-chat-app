@@ -78,6 +78,7 @@ const MessageInput = () => {
             placeholder="Type a message..."
             value={text}
             onChange={(e) => setText(e.target.value)}
+            autoComplete="off"
           />
           <input
             type="file"
